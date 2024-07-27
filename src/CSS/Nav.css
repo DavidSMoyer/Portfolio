@@ -1,0 +1,89 @@
+#nav-grid {
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 50vh 50vh;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.nav-element
+{
+    font-family: 'Permanent Marker', sans-serif;
+    padding: 50px;
+    position: relative;
+    transition: transform 0.5s, box-shadow 1s, color 0.5s, background-color 0.5s;
+}
+
+.nav-element h1
+{
+    margin: 0;
+    font-size: 50px;
+}
+
+.nav-element:hover
+{
+    cursor: pointer;
+    z-index: 1;
+    box-shadow: 0px 0px 50px 3px #000000;
+}
+
+.nav-icon
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 250px;
+}
+
+#nav-about
+{
+    background-color: #fcf434;
+    color: #918d1b;
+}
+
+#nav-about:hover
+{
+    transform: scale(1.05, 1.05) translate(2%, 2%);
+    background-color: #918d1b;
+    color: #fcf434;
+}
+
+#nav-projects
+{
+    background-color: #ffffff;
+    color: #979797;
+}
+
+#nav-projects:hover
+{
+    transform: scale(1.05, 1.05) translate(-2%, 2%);
+    background-color: #979797;
+    color: #ffffff;
+}
+
+#nav-experience
+{
+    background-color: #9b59d0;
+    color: #543170;
+}
+
+#nav-experience:hover
+{
+    transform: scale(1.05, 1.05) translate(2%, -2%);
+    background-color: #543170;
+    color: #9b59d0;
+}
+
+#nav-contact
+{
+    background-color: #2c2c2c;
+    color: #0f0f0f;
+}
+
+#nav-contact:hover
+{
+    transform: scale(1.05, 1.05) translate(-2%, -2%);
+    background-color: #0f0f0f;
+    color: #2c2c2c;
+}

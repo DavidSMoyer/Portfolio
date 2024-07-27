@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import './CSS/App.css';
+import Nav from './Components/Nav.js'
+import About from './Components/About.js'
+import Experience from './Components/Experience.js';
+import { useState } from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [ transitionColor, setTransitionColor ] = useState("yellow");
+    const [ innerColor, setInnerColor ] = useState("yellow");
+    const [ loadIcon, setLoadIcon ] = useState("address-book")
+
+    let setLoad = (color, innerColor, icon) => {
+        setTransitionColor(color);
+        setInnerColor(innerColor);
+        setLoadIcon(icon);
+    }
+
+    return (
+        <div className="App">
+            <div id="transition" style={{backgroundColor: transitionColor}}>
+                <div id="inner-transition" style={{backgroundColor: innerColor, color: transitionColor}}>
+                    <FontAwesomeIcon icon={loadIcon} id="loading" />
+                </div>
+            </div>
+            <BrowserRouter>
+                <Routes>
+                    <Route index element={<Nav setLoad={setLoad} />} />
+                    <Route path="about" element={<About setLoad={setLoad} />} />
+                    <Route path="experience" element={<Experience setLoad={setLoad} />} />
+                    <Route path="*" />
+                </Routes>
+            </BrowserRouter>
+        </div>
+    );
 }
 
 export default App;

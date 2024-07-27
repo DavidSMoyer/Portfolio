@@ -4,9 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { faLaptopCode, faUserTie, faTasks, faEnvelope, faReply, faAddressBook, faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import { library } from '@fortawesome/fontawesome-svg-core';
+
+library.add(fas, faLaptopCode, faUserTie, faTasks, faEnvelope, faReply, faAddressBook, faChevronDown, faChevronUp);
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <script src="../JS/Nav.js" />
     <App />
   </React.StrictMode>
 );

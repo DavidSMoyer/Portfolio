@@ -1,0 +1,190 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes transition-left
+{
+    0%
+    {
+        left: 0%;
+        width: 0%;
+    }
+    50%
+    {
+        left: 0%;
+        width: 100%;
+    }
+    100%
+    {
+        left: 100%;
+        width: 0%;
+    }
+}
+
+@keyframes transition-right
+{
+    0%
+    {
+        left: 100%;
+        width: 0%;
+    }
+    50%
+    {
+        left: 0%;
+        width: 100%;
+    }
+    100%
+    {
+        left: 0%;
+        width: 0%;
+    }
+}
+
+@keyframes inner-transition-left
+{
+    0%
+    {
+        left: 0%;
+        width: 0%;
+    }
+    40%
+    {
+        left: 0%;
+        width: 100%;
+    }
+    100%
+    {
+        left: 100%;
+        width: 0%;
+    }
+}
+
+@keyframes inner-transition-right
+{
+    0%
+    {
+        left: 100%;
+        width: 0%;
+    }
+    40%
+    {
+        left: 0%;
+        width: 100%;
+    }
+    100%
+    {
+        left: 0%;
+        width: 0%;
+    }
+}
+
+@keyframes spinner
+{
+    0%
+    {
+        transform: rotateZ(0deg);
+    }
+    100%
+    {
+        transform: rotateZ(360deg);
+    }
+}
+
+#transition 
+{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: yellow;
+    z-index: 2;
+    width: 0%;
+    height: 100%;
+}
+
+#inner-transition 
+{
+    position: absolute;
+    display: flex;
+    top: 0%;
+    left: 0%;
+    z-index: 2;
+    width: 0%;
+    height: 100%;
+    background-color: white;
+
+    justify-content: center;
+    align-items: center;
+    font-size: 350px;
+    overflow: hidden;
+}
+
+#transition.left
+{
+    animation: transition-left 1.5s;
+}
+
+#transition.left #inner-transition
+{
+    animation: inner-transition-left 1.5s;
+}
+
+#transition.right
+{
+    animation: transition-right 1.5s;
+}
+
+#transition.right #inner-transition
+{
+    animation: inner-transition-right 1.5s;
+}
+
+#transition.hidden
+{
+    display: none;
+}
+
+#back
+{
+    position: absolute;
+    font-size: 40px;
+    top: 10%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}

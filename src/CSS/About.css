@@ -1,0 +1,73 @@
+#about
+{
+    background-color: #fcf434;
+    width: 100vw;
+    height: 85vh;
+    color: #410f58;
+    padding-top: 15vh;
+}
+
+#portrait
+{
+    position: absolute;
+    width: 20vw;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    align-items: end;
+    height: 30vw;
+    background-image: url('../Images/self.jpg');
+    background-size: 20vw 30vw;
+
+    mask-image: url(../Images/portrait_mask.png);
+    mask-size: 25vw 30vw;
+    mask-position: -2.5vw 0;
+}
+
+#pfp
+{
+    position: absolute;
+    width: 15vw;
+    bottom: 2vw;
+    right: 2vw;
+    margin: 0;
+    align-items: end;
+    height: 15vw;
+    background-image: url('../Images/pfp.png');
+    background-size: 15vw 15vw;
+
+    mask-image: url(../Images/pfp_mask.png);
+    mask-size: 15vw 15vw;
+}
+
+h1, h2
+{
+    margin: 0;
+}
+
+h2
+{
+    font-size: 30px;
+}
+
+#about p {
+    padding: 10px 20vw;
+    font-size: 20px;
+    margin: 0;
+}
+
+hr
+{
+    width: 60vw;
+    border-color: #410f58
+}
+
+#resume
+{
+    background-color: #410f58;
+    color: #fcf434;
+    padding: 10px 20px;
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+}
