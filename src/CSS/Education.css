@@ -1,0 +1,48 @@
+.education
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.education h2,
+.education h3
+{
+    font-weight: normal;
+}
+
+.school-logo img
+{
+    height: 20vh;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.school-info
+{
+    padding: 2vh 2vw;
+}
+
+.school-title
+{
+    display: flex;
+    justify-content: space-between;
+    text-shadow: 1px 1px 10px;
+    text-align: left;
+}
+
+.school-title:nth-child(1),
+.school-info h3
+{
+    text-align: right;
+}
+
+.school-duration
+{
+    text-align: right;
+}
+
+.school-desc
+{
+    text-align: left;
+}

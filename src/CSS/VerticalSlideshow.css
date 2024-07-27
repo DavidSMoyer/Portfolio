@@ -6,22 +6,14 @@
 
 #vertical-slideshow-up
 {
-    position: absolute;
-    left: 50%;
     top: 5%;
     transform: translate(-50%, -50%);
-    cursor: pointer;
-    font-size: 50px;
 }
 
 #vertical-slideshow-down
 {
-    position: absolute;
-    left: 50%;
     bottom: 5%;
     transform: translate(-50%, 50%);
-    cursor: pointer;
-    font-size: 50px;
 }
 
 .slide
@@ -58,6 +50,32 @@
     opacity: 0;
 }
 
+.vertical-button
+{
+    position: absolute;
+    left: 50%;
+    opacity: 1;
+    transition: opacity 0.25s, top 0.25s, bottom 0.25s;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.disable-vertical-button
+{
+    cursor: initial;
+    opacity: 0;
+}
+
+#vertical-slideshow-down.disable-vertical-button
+{
+    bottom: 7.5%;
+}
+
+#vertical-slideshow-up.disable-vertical-button
+{
+    top: 7.5%;
+}
+
 @keyframes fade-out-up
 {
     0%
@@ -67,7 +85,7 @@
     }
     100%
     {
-        transform: translate(0, 25%);
+        transform: translate(0, 10%);
         opacity: 0;
     }
 }
@@ -76,7 +94,7 @@
 {
     0%
     {
-        transform: translate(0, 25%);
+        transform: translate(0, 10%);
         opacity: 0;
     }
     100%
@@ -95,7 +113,7 @@
     }
     100%
     {
-        transform: translate(0, -25%);
+        transform: translate(0, -10%);
         opacity: 0;
     }
 }
@@ -104,7 +122,7 @@
 {
     0%
     {
-        transform: translate(0, -25%);
+        transform: translate(0, -10%);
         opacity: 0;
         
     }

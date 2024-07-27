@@ -1,0 +1,64 @@
+.job-position
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.job-position h2,
+.job-position h3
+{
+    font-weight: normal;
+}
+
+.job-logo img
+{
+    height: 25vh;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.job-info
+{
+    padding: 2vh 2vw;
+}
+
+.job-title
+{
+    display: flex;
+    justify-content: space-between;
+    text-shadow: 1px 1px 10px;
+}
+
+.job-duration
+{
+    text-align: right;
+}
+
+.job-desc
+{
+    text-align: left;
+}
+
+.job-skills
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.job-skills h3
+{
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+.job-skill
+{
+    padding: 5px 10px;
+    background-color: #ffffff;
+    color: #979797;
+    border: 1px solid #979797;
+    border-radius: 10px;
+    margin-right: 10px;
+}

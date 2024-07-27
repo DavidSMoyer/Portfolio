@@ -36,11 +36,11 @@ export function Slideshow(props)
 
     return (
         <div className="vertical-slideshow">
-            <FontAwesomeIcon id="vertical-slideshow-up" icon="chevron-up" onClick={prevSlide} />
+            <FontAwesomeIcon id="vertical-slideshow-up" icon="chevron-up" onClick={prevSlide} className={currentIndex > 0 ? "vertical-button" : "vertical-button disable-vertical-button"} />
             <div className={fading ? "slide fading fade-" + fadeDirection : "slide"}>
                 {props.children[currentIndex]}
             </div>
-            <FontAwesomeIcon id="vertical-slideshow-down" icon="chevron-down" onClick={nextSlide} />
+            <FontAwesomeIcon id="vertical-slideshow-down" icon="chevron-down" onClick={nextSlide} className={currentIndex < props.children.length - 1 ? "vertical-button" : "vertical-button disable-vertical-button"} />
         </div>
     );
 }

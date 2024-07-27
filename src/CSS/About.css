@@ -5,6 +5,7 @@
     height: 85vh;
     color: #410f58;
     padding-top: 15vh;
+    text-shadow: 1px 1px 3px #9b59d0
 }
 
 #portrait
@@ -16,7 +17,8 @@
     margin: 0;
     align-items: end;
     height: 30vw;
-    background-image: url('../Images/self.jpg');
+    /* background-image: url('../Images/self.jpg'); */
+    background-image: url(../Images/portrait_mask.png);
     background-size: 20vw 30vw;
 
     mask-image: url(../Images/portrait_mask.png);
@@ -38,6 +40,9 @@
 
     mask-image: url(../Images/pfp_mask.png);
     mask-size: 15vw 15vw;
+
+    border-radius: 100%;
+    box-shadow: inset 0 0 10px 10px #fcf434;
 }
 
 h1, h2
