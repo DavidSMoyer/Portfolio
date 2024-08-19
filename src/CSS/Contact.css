@@ -1,0 +1,91 @@
+#contact
+{
+    background-color: #2c2c2c;
+    width: 100vw;
+    height: 85vh;
+    color: #ffffff;
+    padding-top: 15vh;
+    text-shadow: 1px 1px 3px #979797;
+}
+
+#contact p
+{
+    padding: 10px 20vw;
+    font-size: 20px;
+    margin: 0;
+}
+
+#contact p a
+{
+    color: white;
+}
+
+form 
+{
+    padding: 0 20vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+form > *
+{
+    margin-bottom: 10px;
+}
+
+#contact textarea
+{
+    resize: none;
+}
+
+#senderInfo
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+#contact input[type=text],
+#contact input[type=email],
+#contact textarea
+{
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 1px 1px 10px #979797;
+    margin-bottom: 20px;
+}
+
+#contact input[type=text]::placeholder,
+#contact input[type=email]::placeholder
+{
+    font-style: italic;
+    color: #b1b1b1;
+}
+
+#nameInput,
+#emailInput
+{
+    width: 45%;
+}
+
+#submitForm
+{
+    width: 100px;
+    background-color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+#socials
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 40vw;
+}

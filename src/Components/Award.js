@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 export default function Award(props)
 {
     return (
-        <li className={props.link != undefined ? "award link" : "award"} onClick={props.link != undefined ? () => window.open(props.link) : undefined} title={props.link}>
+        <li className={props.link !== undefined ? "award link" : "award"} onClick={props.link !== undefined ? () => window.open(props.link) : undefined} title={props.link}>
             <div className="award-title">
                 <div className="award-left">
                     <FontAwesomeIcon className="certified-icon" icon={props.type} />

@@ -41,7 +41,7 @@ export default function Position(props)
     return (
         <li className="education">
             <div className="school-logo" onClick={() => window.open(props.link)}>
-                <img src={props.logo} />
+                <img src={props.logo} alt={props.name + " logo"} />
             </div>
             <div className="school-info">
                 <div className="school-title">

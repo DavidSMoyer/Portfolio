@@ -1,0 +1,21 @@
+.social 
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 20%;
+    background-color: white;
+    box-sizing: content-box;
+    padding: 5px;
+}
+
+.social a
+{
+    width: 100%;
+    height: 100%;
+}
+
+.social img
+{
+    width: 100%;
+    height: 100%;
+}

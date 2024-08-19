@@ -1,7 +1,7 @@
-import '../CSS/About.css';
+import '../../CSS/About.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useNavigate } from 'react-router-dom';
-import { StartTransition } from '../JS/Nav';
+import { StartTransition } from '../../JS/Nav';
 import { Link } from 'react-router-dom';
 
 export default function About(props)

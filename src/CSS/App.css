@@ -187,4 +187,10 @@
     left: 5%;
     transform: translate(-50%, -50%);
     cursor: pointer;
+    transition: transform 0.5s;
+}
+
+#back:hover
+{
+    transform: translate(-40%, -40%) scale(1.25, 1.25);
 }

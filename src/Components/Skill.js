@@ -2,9 +2,9 @@ import '../CSS/Skill.css';
 
 export default function Skill(props)
 {
-    return props.img != undefined ? (
+    return props.img !== undefined ? (
         <li className={"skill " + props.skillLevel}>
-            <img src={props.img} />
+            <img src={props.img} alt={props.tooltip + " logo"} />
             <div className='skill-overlay hidden'>
                 <h3>{props.tooltip}</h3>
             </div>

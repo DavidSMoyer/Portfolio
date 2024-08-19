@@ -1,7 +1,9 @@
 import './CSS/App.css';
 import Nav from './Components/Nav.js'
-import About from './Components/About.js'
-import Experience from './Components/Experience.js';
+import About from './Components/Pages/About.js'
+import Experience from './Components/Pages/Experience.js';
+import Projects from './Components/Pages/Projects.js'
+import Contact from './Components/Pages/Contact.js';
 import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -9,7 +11,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function App() {
     const [ transitionColor, setTransitionColor ] = useState("yellow");
     const [ innerColor, setInnerColor ] = useState("yellow");
-    const [ loadIcon, setLoadIcon ] = useState("address-book")
+    const [ loadIcon, setLoadIcon ] = useState("address-book");
 
     let setLoad = (color, innerColor, icon) => {
         setTransitionColor(color);
@@ -29,6 +31,8 @@ function App() {
                     <Route index element={<Nav setLoad={setLoad} />} />
                     <Route path="about" element={<About setLoad={setLoad} />} />
                     <Route path="experience" element={<Experience setLoad={setLoad} />} />
+                    <Route path="projects" element={<Projects setLoad={setLoad} />} />
+                    <Route path="contact" element={<Contact setLoad={setLoad} />} />
                     <Route path="*" />
                 </Routes>
             </BrowserRouter>

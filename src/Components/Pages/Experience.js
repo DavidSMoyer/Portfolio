@@ -1,28 +1,28 @@
-import '../CSS/Experience.css';
+import '../../CSS/Experience.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useNavigate } from 'react-router-dom';
-import { StartTransition } from '../JS/Nav';
-import { Slideshow, Slide } from './VerticalSlideshow';
-import Skill from './Skill';
-import Award from './Award';
-import Position from './Position';
-import Education from './Education';
+import { StartTransition } from '../../JS/Nav';
+import { Slideshow } from '../VerticalSlideshow';
+import Skill from '../Skill';
+import Award from '../Award';
+import Position from '../Position';
+import Education from '../Education';
 
-import csharp from '../Images/csharp.png';
-import cplusplus from '../Images/cplusplus.svg';
-import html from '../Images/html.png';
-import java from '../Images/java.png';
-import python from '../Images/python.png';
-import sql from '../Images/sql.png';
-import javascript from '../Images/javascript.png';
-import css from '../Images/css.png';
+import csharp from '../../Images/csharp.png';
+import cplusplus from '../../Images/cplusplus.svg';
+import html from '../../Images/html.png';
+import java from '../../Images/java.png';
+import python from '../../Images/python.png';
+import sql from '../../Images/sql.png';
+import javascript from '../../Images/javascript.png';
+import css from '../../Images/css.png';
 
-import unity from '../Images/unity.png';
-import unrealengine from '../Images/unrealengine.png';
-import git from '../Images/git.png';
-import godot from '../Images/godot.png';
-import react from '../Images/react.png';
-import vr from '../Images/vr.png';
+import unity from '../../Images/unity.png';
+import unrealengine from '../../Images/unrealengine.png';
+import git from '../../Images/git.png';
+import godot from '../../Images/godot.png';
+import react from '../../Images/react.png';
+import vr from '../../Images/vr.png';
 
 export default function Experience(props)
 {
