@@ -5,10 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import { fas } from '@fortawesome/free-solid-svg-icons';
-import { faLaptopCode, faUserTie, faTasks, faEnvelope, faReply, faAddressBook, faChevronUp, faChevronDown, faCertificate, faAward } from '@fortawesome/free-solid-svg-icons'
+import { faLaptopCode, faUserTie, faTasks, faEnvelope, faReply, faAddressBook, faChevronUp, faChevronDown, faCertificate, faAward, faChevronLeft, faChevronRight, faHome } from '@fortawesome/free-solid-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core';
 
-library.add(fas, faLaptopCode, faUserTie, faTasks, faEnvelope, faReply, faAddressBook, faChevronDown, faChevronUp, faCertificate, faAward);
+library.add(fas, faLaptopCode, faUserTie, faTasks, faEnvelope, faReply, faAddressBook, faChevronDown, faChevronUp, faCertificate, faAward, faChevronLeft, faChevronRight, faHome);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

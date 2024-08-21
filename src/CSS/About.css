@@ -17,8 +17,7 @@
     margin: 0;
     align-items: end;
     height: 30vw;
-    /* background-image: url('../Images/self.jpg'); */
-    background-image: url(../Images/portrait_mask.png);
+    background-image: url('../Images/self.jpg');
     background-size: 20vw 30vw;
 
     mask-image: url(../Images/portrait_mask.png);

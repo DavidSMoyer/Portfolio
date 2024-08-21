@@ -31,7 +31,7 @@ function App() {
                     <Route index element={<Nav setLoad={setLoad} />} />
                     <Route path="about" element={<About setLoad={setLoad} />} />
                     <Route path="experience" element={<Experience setLoad={setLoad} />} />
-                    <Route path="projects" element={<Projects setLoad={setLoad} />} />
+                    <Route path="projects/*" element={<Projects setLoad={setLoad} />} />
                     <Route path="contact" element={<Contact setLoad={setLoad} />} />
                     <Route path="*" />
                 </Routes>

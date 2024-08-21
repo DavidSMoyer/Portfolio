@@ -1,19 +1,29 @@
 import '../CSS/Project.css';
+import { useNavigate } from 'react-router-dom';
+import { StartTransition } from '../JS/Nav';
 
 export default function Project(props)
 {
     // ID
-    // Title
-    // Thumbnail Link
-    // Short Description
+    // Name
+    // Img
+    // Desc
+
+    let navigate = useNavigate();
 
     return (
-        <div className='project'>
-            <h3>{props.title}</h3>
-            <div class="project-img">
-                <img src={props.thumbnail} />
+        <a className='project' onClick={() => { StartTransition("right", () => navigate("/projects/" + props.id)); props.setLoad("#979797", "#ffffff", "laptop-code");}}>
+            <div className="project-img">
+                <img src={props.img} />
             </div>
-            <p>{props.description}</p>
-        </div>
+            <div className="project-overlay">
+                <h3>{props.name}</h3>
+                {
+                    props.desc.length > 110
+                    ? <p>{props.desc.slice(0, 110).trim() + "..."}</p>
+                    : <p>{props.desc}</p>
+                }
+            </div>
+        </a>
     )
 }

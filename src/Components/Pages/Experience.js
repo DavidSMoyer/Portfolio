@@ -2,7 +2,7 @@ import '../../CSS/Experience.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useNavigate } from 'react-router-dom';
 import { StartTransition } from '../../JS/Nav';
-import { Slideshow } from '../VerticalSlideshow';
+import Slideshow from '../Slideshow';
 import Skill from '../Skill';
 import Award from '../Award';
 import Position from '../Position';
@@ -32,7 +32,7 @@ export default function Experience(props)
         <div id="experience">
             <FontAwesomeIcon id="back" icon="reply" onClick={() => {props.setLoad("#543170", "#9b59d0", "tasks"); StartTransition("right", () => navigate("/")); }} />
             <main>
-                <Slideshow>
+                <Slideshow direction="vertical">
                     <div className='inner-slide' id="skills-slide">
                         <h1>Skills</h1>
                         <ul id="levels">

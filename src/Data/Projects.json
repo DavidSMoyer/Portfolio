@@ -1,0 +1,58 @@
+[
+    {
+        "id": "4c038d6f-f7f4-47fe-a1b0-12b683f1b26f",
+        "name": "Graveyard Rush",
+        "description": "A small first-person shooter where the player is trapped in a graveyard while endless waves of zombies spawn and try to attack them. Collect powerups to clear out the dead, and at the end of the run, use your earned points to unlock cosmetics for your next runs.",
+        "thumbnail": "/Images/placeholder.svg",
+        "repo": "",
+        "images": [
+            "/Images/placeholder.svg",
+            "/Images/placeholder.svg",
+            "/Images/placeholder.svg",
+            "/Images/placeholder.svg",
+            "/Images/placeholder.svg"
+        ]
+    },
+    {
+        "id": "8f445f5c-2469-4abc-85fc-8e5f54520dc9",
+        "name": "The Art of War",
+        "description": "A civilization inspired game where up to 4 players take turns locally. Each player begins play with a hero and a castle, and must build up their army and industry to defeat the other players in randomly generated terrain.",
+        "thumbnail": "/Images/placeholder.svg",
+        "repo": "",
+        "images": [
+            "/Images/placeholder.svg",
+            "/Images/placeholder.svg",
+            "/Images/placeholder.svg",
+            "/Images/placeholder.svg",
+            "/Images/placeholder.svg"
+        ]
+    },
+    {
+        "id": "2da7673e-ca4e-42b7-a7e1-1513ec17d244",
+        "name": "Grappling",
+        "description": "A small proof of concept inspired by titles such as Cluster Truck. The player spawns in a void and must reach the end of the level by grappling between different objects suspended in the void with them.",
+        "thumbnail": "/Images/placeholder.svg",
+        "repo": "",
+        "images": [
+            "/Images/placeholder.svg",
+            "/Images/placeholder.svg",
+            "/Images/placeholder.svg",
+            "/Images/placeholder.svg",
+            "/Images/placeholder.svg"
+        ]
+    },
+    {
+        "id": "14733ee6-e6f7-49dc-af90-5e0747bd057b",
+        "name": "Castaway",
+        "description": "A small proof of concept survival game, used primarily in learning the basics of Unreal Engine to begin producing games within the engine.",
+        "thumbnail": "/Images/placeholder.svg",
+        "repo": "",
+        "images": [
+            "/Images/placeholder.svg",
+            "/Images/placeholder.svg",
+            "/Images/placeholder.svg",
+            "/Images/placeholder.svg",
+            "/Images/placeholder.svg"
+        ]
+    }
+]

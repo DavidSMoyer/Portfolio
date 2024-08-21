@@ -12,10 +12,10 @@ export default function About(props)
         <div id="about">
             <FontAwesomeIcon id="back" icon="reply" onClick={() => {props.setLoad("#918d1b", "#fcf434", "user-tie"); StartTransition("right", () => navigate("/")); }} />
             <main>
-                <h1>David - Software Developer</h1>
+                <h1>David Moyer - Software Developer</h1>
                 <hr />
                 <p>
-                    Hey there! My name is David, I use They/Them, and I'm an aspiring Software Developer. I am a graduated student of both Pembina Trails Early College and the Manitoba Institution of Trades and Technology since 2022.
+                    Hey there! My name is David Moyer, I use They/Them, and I'm an aspiring Software Developer. I am a graduated student of both Pembina Trails Early College and the Manitoba Institution of Trades and Technology since 2022.
                 </p>
                 <p>
                     I am an adaptive and hard working individual, with an interest in both developing and playing video games! I believe that this insight makes me a better developer, allowing me to understand the experience you're looking for when gaming. 
