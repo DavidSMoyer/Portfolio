@@ -5,6 +5,9 @@ import { useNavigate } from "react-router-dom";
 import { StartTransition } from '../../JS/Nav';
 import projects from '../../Data/Projects.json';
 import Slideshow from '../Slideshow';
+import Social from '../Social';
+
+import github from '../../Images/github.png';
 
 export default function ProjectDetails(props)
 {
@@ -12,6 +15,7 @@ export default function ProjectDetails(props)
     let navigate = useNavigate();
 
     let project = projects.find(proj => proj.id == id);
+    console.log(project.description);
 
     return (
         <div id="project-details">
@@ -27,7 +31,14 @@ export default function ProjectDetails(props)
                     )
                 }
             </Slideshow>
-            <p>{project.description}</p>
+            {
+                project.repo !== "" ? <div id="repo"><Social src={project.repo} img={github} /></div> : ""
+            }
+            {
+                project.description.map((desc, i) => 
+                    <p key={i + "-2"}>{desc}</p>
+                )
+            }
         </div>
     )
 }

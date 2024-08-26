@@ -23,9 +23,9 @@ export default function Projects(props)
                         <FontAwesomeIcon id="back" icon="reply" onClick={() => {props.setLoad("#979797", "#ffffff", "laptop-code"); StartTransition("left", () => navigate("/")); }} />
                         <h1>Projects</h1>
                         <div id="project-list-container">
-                            <div id="project-list" style={{height: rows * 265}}>
+                            <div id="project-list" style={{height: (rows * 13) + "vw"}}>
                                 {
-                                    projects.map((proj, i) => <Project key={proj.id} setLoad={props.setLoad} id={proj.id} name={proj.name} desc={proj.description} img={proj.thumbnail} />)
+                                    projects.map((proj, i) => <Project key={proj.id} setLoad={props.setLoad} id={proj.id} name={proj.name} desc={proj.description[0]} img={proj.thumbnail} />)
                                 }
                             </div>
                         </div>
