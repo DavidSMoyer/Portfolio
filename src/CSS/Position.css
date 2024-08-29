@@ -5,6 +5,11 @@
     grid-template-columns: auto 1fr;
 }
 
+.job-position h2
+{
+    font-size: 20px;
+}
+
 .job-position h2,
 .job-position h3
 {
@@ -61,4 +66,87 @@
     border: 1px solid #979797;
     border-radius: 10px;
     margin-right: 10px;
+}
+
+.job-title h2:first-child
+{
+    padding-right: 20px;
+    text-align: left;
+}
+
+.job-title h2:last-child
+{
+    text-wrap: nowrap;
+    text-align: right;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .job-logo
+    {
+        max-width: 20vw;
+    }
+
+    .job-logo img
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .job-position h2
+    {
+        font-size: 15px;
+    }
+
+    .job-desc
+    {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 425px)
+{
+    .job-logo
+    {
+        max-width: 10vw;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .job-logo img
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .job-position h2
+    {
+        font-size: 10px;
+    }
+
+    .job-desc
+    {
+        font-size: 10px;
+    }
+
+    .job-skill
+    {
+        font-size: 12px;
+        padding: 2.5px 5px;
+    }
+
+    .job-title
+    {
+        flex-direction: column;
+    }
+
+    .job-title h2:last-child
+    {
+        text-align: left;
+    }
+
+    .job-position h3
+    {
+        font-size: 10px;
+    }
 }

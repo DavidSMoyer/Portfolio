@@ -1,8 +1,14 @@
 .education
 {
     width: 100%;
+    height: 100%;
     display: grid;
     grid-template-columns: auto 1fr;
+}
+
+.education h2
+{
+    font-size: 20px;
 }
 
 .education h2,
@@ -31,7 +37,7 @@
     text-align: left;
 }
 
-.school-title:nth-child(1),
+.school-title :last-child,
 .school-info h3
 {
     text-align: right;
@@ -45,4 +51,59 @@
 .school-desc
 {
     text-align: left;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .education h2
+    {
+        font-size: 15px;
+    }
+
+    .school-title :first-child
+    {
+        text-align: left;
+    }
+
+    .school-desc
+    {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 425px)
+{
+    .school-logo
+    {
+        max-width: 10vh;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .school-logo img
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .school-title
+    {
+        flex-direction: column;
+    }
+
+    .school-title h2:last-child
+    {
+        text-align: left;
+    }
+
+    .school-info h3
+    {
+        font-size: 15px;
+    }
+
+    .school-info h2,
+    .school-info p
+    {
+        font-size: 10px;
+    }
 }

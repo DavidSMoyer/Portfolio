@@ -44,16 +44,6 @@
     box-shadow: inset 0 0 10px 10px #fcf434;
 }
 
-h1, h2
-{
-    margin: 0;
-}
-
-h2
-{
-    font-size: 30px;
-}
-
 #about p {
     padding: 10px 20vw;
     font-size: 20px;
@@ -74,4 +64,40 @@ hr
     text-decoration: none;
     position: relative;
     top: 30px;
+}
+
+@media only screen and (max-width: 425px)
+{
+    #about
+    {
+        padding-top: 5vh;
+        height: 95vh;
+    }
+
+    #about h1
+    {
+        font-size: 20px;
+        padding-top: 30px;
+    }
+
+    #about p
+    {
+        font-size: 12px
+    }
+
+    #portrait
+    {
+        width: 30vw;
+        height: 45vw;
+        background-size: 30vw 45vw;
+        mask-size: 35vw 45vw;
+    }
+
+    #pfp
+    {
+        width: 30vw;
+        height: 30vw;
+        background-size: 30vw 30vw;
+        mask-size: 30vw 30vw;
+    }
 }

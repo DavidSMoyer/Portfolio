@@ -50,7 +50,7 @@ export default function Position(props)
                     <h2>{startDateString[0]} {startDateString[2]} - {endDateString[0]} {endDateString[2]}</h2>
                 </div>
                 <h3 className="job-duration">
-                    Positioned lasted 
+                    Position lasted 
                     {years > 0 ? " " + years + " year" + (years > 1 ? "s " : " ") : ""}
                     {years > 0 && months === 0 ? "." : ""}
                     {months > 0 ? months + " month" + (months > 1 ? "s" : "") : ""}

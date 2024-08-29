@@ -107,3 +107,31 @@
         transform: scale(0.75, 1);
     }
 }
+
+@media only screen and (max-width: 1024px)
+{
+    .award h3,
+    .award p
+    {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 425px)
+{
+    .award-title {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .award-right
+    {
+        text-align: left;
+        padding-left: 35px;
+    }
+
+    .award p
+    {
+        font-size: 12px;
+    }
+}

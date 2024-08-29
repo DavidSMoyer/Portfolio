@@ -33,7 +33,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 250px;
+    font-size: 200px;
 }
 
 #nav-about
@@ -86,4 +86,31 @@
     transform: scale(1.05, 1.05) translate(-2%, -2%);
     background-color: #0f0f0f;
     color: #2c2c2c;
+}
+
+@media only screen and (max-width: 768px)
+{
+    .nav-element h1
+    {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 425px)
+{
+    .nav-element h1
+    {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .nav-icon
+    {
+        font-size: 100px;
+    }
+
+    .nav-element
+    {
+        padding: 50px 25px;
+    }
 }

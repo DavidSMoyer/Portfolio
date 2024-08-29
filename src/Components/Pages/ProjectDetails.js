@@ -15,7 +15,6 @@ export default function ProjectDetails(props)
     let navigate = useNavigate();
 
     let project = projects.find(proj => proj.id == id);
-    console.log(project.description);
 
     return (
         <div id="project-details">
