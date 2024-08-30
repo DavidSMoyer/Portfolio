@@ -7,14 +7,14 @@
             "These power-ups provide crucial advantages, allowing you to clear out hordes of zombies and extend your survival time. As you accumulate points by eliminating the undead, you can unlock a variety of cosmetic upgrades to customize your experience for future runs, adding a layer of personalization and replayability to the game.",
             "While the concept is simple, Graveyard Rush was a very useful tool in expanding my knowledge of Unity, and serves as a simple concept that can quickly be expanded upon in the future."
         ],
-        "thumbnail": "./Images/Projects/GR/Title.png",
+        "thumbnail": "/Images/Projects/GR/Title.png",
         "repo": "https://github.com/DavidSMoyer/Graveyard-Rush-Beta",
         "images": [
-            "./Images/Projects/GR/Title.png",
-            "./Images/Projects/GR/Shop.png",
-            "./Images/Projects/GR/Instructions.png",
-            "./Images/Projects/GR/Gameplay.png",
-            "./Images/Projects/GR/Game Over.png"
+            "/Images/Projects/GR/Title.png",
+            "/Images/Projects/GR/Shop.png",
+            "/Images/Projects/GR/Instructions.png",
+            "/Images/Projects/GR/Gameplay.png",
+            "/Images/Projects/GR/Game Over.png"
         ]
     },
     {
@@ -25,14 +25,14 @@
             "Set within a randomly generated terrain, each match presents a fresh challenge, requiring players to adapt their strategies to the unique landscape and resource distribution. Whether forging alliances or engaging in direct combat, the goal remains the same: to outwit and overpower the other players in a quest for dominance. The dynamic interplay between economy, military strength, and tactical positioning ensures that every decision counts, making each turn a pivotal moment in the battle for supremacy.",
             "The Art of War was developed using the Greenfoot IDE, and coded in Java. While the IDE itself leaves much to be desired, this project was a pivotal moment in my understanding of developing using Java, and served as my first fully developed project in my education."
         ],
-        "thumbnail": "./Images/Projects/TAOW/Thumbnail.png",
+        "thumbnail": "/Images/Projects/TAOW/Thumbnail.png",
         "repo": "https://github.com/DavidSMoyer/Final-Project",
         "images": [
-            "./Images/Projects/TAOW/Title.PNG",
-            "./Images/Projects/TAOW/HeroSelect.png",
-            "./Images/Projects/TAOW/Gameplay1.png",
-            "./Images/Projects/TAOW/Gameplay2.png",
-            "./Images/Projects/TAOW/Gameplay3.png"
+            "/Images/Projects/TAOW/Title.PNG",
+            "/Images/Projects/TAOW/HeroSelect.png",
+            "/Images/Projects/TAOW/Gameplay1.png",
+            "/Images/Projects/TAOW/Gameplay2.png",
+            "/Images/Projects/TAOW/Gameplay3.png"
         ]
     },
     {
@@ -43,21 +43,21 @@
             "Mastering the mechanics of the grappling hook is key, as each level challenges you to navigate through increasingly complex and precarious arrangements of objects. Timing, momentum, and strategic planning are essential to make it through the void unscathed. Void Grappler distills the essence of skill-based movement into a focused, fast-paced experience, making it a perfect showcase of innovative gameplay mechanics and fluid motion.",
             "While very barebones in itself, and simplistic in name, this project allowed me to experiment with physics in Unity and offers endless development through the process of adding additional levels and new mechanics to spice up the gameplay."
         ],
-        "thumbnail": "./Images/Projects/GG/Title.png",
+        "thumbnail": "/Images/Projects/GG/Title.png",
         "repo": "https://github.com/DavidSMoyer/Grappling-Demo",
         "images": [
-            "./Images/Projects/GG/Level Select.png",
-            "./Images/Projects/GG/Level 1.png",
-            "./Images/Projects/GG/Level 1 Gameplay.png",
-            "./Images/Projects/GG/Level Complete.png",
-            "./Images/Projects/GG/Level 2.png",
-            "./Images/Projects/GG/Level 2 Gameplay.png",
-            "./Images/Projects/GG/Level 3.png",
-            "./Images/Projects/GG/Level 3 Gameplay.png",
-            "./Images/Projects/GG/Level 4.png",
-            "./Images/Projects/GG/Level 4 Gameplay.png",
-            "./Images/Projects/GG/Level 5.png",
-            "./Images/Projects/GG/Level 5 Gameplay.png"
+            "/Images/Projects/GG/Level Select.png",
+            "/Images/Projects/GG/Level 1.png",
+            "/Images/Projects/GG/Level 1 Gameplay.png",
+            "/Images/Projects/GG/Level Complete.png",
+            "/Images/Projects/GG/Level 2.png",
+            "/Images/Projects/GG/Level 2 Gameplay.png",
+            "/Images/Projects/GG/Level 3.png",
+            "/Images/Projects/GG/Level 3 Gameplay.png",
+            "/Images/Projects/GG/Level 4.png",
+            "/Images/Projects/GG/Level 4 Gameplay.png",
+            "/Images/Projects/GG/Level 5.png",
+            "/Images/Projects/GG/Level 5 Gameplay.png"
         ]
     },
     {
@@ -67,14 +67,14 @@
             "Castaway is a minimalist survival game designed with the core objective of mastering the fundamentals of Unreal Engine. Stripping the genre down to its most essential elements, the game features a simple yet functional food and thirst system alongside basic movement mechanics. While the gameplay is intentionally sparse, focusing on the raw survival experience, it serves as an effective tool for learning and experimenting within Unreal Engine's powerful development environment.",
             "Castaway is not just a game; it's a stepping stone for myself in looking to understand the intricacies of game creation in Unreal Engine. Through the process of building this project, I developed the foundational skills necessary for producing more complex and polished titles in the engine. In the future, I hope to produce more polished and developed projects in Unreal Engine and push myself to make something great."
         ],
-        "thumbnail": "./Images/Projects/CASTAWAY/Death.png",
+        "thumbnail": "/Images/Projects/CASTAWAY/Death.png",
         "repo": "https://github.com/DavidSMoyer/Castaway",
         "images": [
-            "./Images/Projects/CASTAWAY/Gameplay.png",
-            "./Images/Projects/CASTAWAY/Food.png",
-            "./Images/Projects/CASTAWAY/Nature.png",
-            "./Images/Projects/CASTAWAY/Water.png",
-            "./Images/Projects/CASTAWAY/Death.png"
+            "/Images/Projects/CASTAWAY/Gameplay.png",
+            "/Images/Projects/CASTAWAY/Food.png",
+            "/Images/Projects/CASTAWAY/Nature.png",
+            "/Images/Projects/CASTAWAY/Water.png",
+            "/Images/Projects/CASTAWAY/Death.png"
         ]
     },
     {
@@ -85,14 +85,14 @@
             "Although Reality Clash is in its infancy, with only the most basic elements implemented, it serves as a promising glimpse into the potential for a fully-fledged RTS experience. The current focus is on perfecting the core gameplay mechanics, ensuring smooth and responsive unit control as a basis for future development.",
             "Looking ahead, the vision for Reality Clash includes expanding on these early foundations to create a rich, strategic environment filled with diverse units, intricate base-building, and dynamic combat scenarios. This project is a labor of love, and as it evolves, it aims to offer a fresh and engaging take on the real-time strategy genre. As one of my first Unreal Engine projects, it also serves to expand my knowledge of the Engine through it's development."
         ],
-        "thumbnail": "./Images/Projects/RC/Thumbnail.png",
+        "thumbnail": "/Images/Projects/RC/Thumbnail.png",
         "repo": "",
         "images": [
-            "./Images/Projects/RC/Units.png",
-            "./Images/Projects/RC/Structure.png",
-            "./Images/Projects/RC/Closeup.png",
-            "./Images/Projects/RC/Movement.png",
-            "./Images/Projects/RC/Order.png"
+            "/Images/Projects/RC/Units.png",
+            "/Images/Projects/RC/Structure.png",
+            "/Images/Projects/RC/Closeup.png",
+            "/Images/Projects/RC/Movement.png",
+            "/Images/Projects/RC/Order.png"
         ]
     },
     {
@@ -103,19 +103,19 @@
             "Currently, the game serves as a sandbox for experimentation, allowing me to explore the intricacies of creating immersive environments and cohesive world layouts. Each step in the development process, from terrain sculpting to object placement, contributes to a deeper comprehension of the tools and techniques required to bring a fully realized RPG world to life.",
             "While much remains to be built, Slash represents an important milestone in my journey as a game developer, laying the groundwork for what will eventually become a rich and engaging open-world experience."
         ],
-        "thumbnail": "./Images/Projects/SLASH/Thumbnail.png",
+        "thumbnail": "/Images/Projects/SLASH/Thumbnail.png",
         "repo": "",
         "images": [
-            "./Images/Projects/SLASH/Capture2.jfif",
-            "./Images/Projects/SLASH/Capture3.jfif",
-            "./Images/Projects/SLASH/Capture4.jfif",
-            "./Images/Projects/SLASH/Capture5.png",
-            "./Images/Projects/SLASH/Dungeon1.png",
-            "./Images/Projects/SLASH/Dungeon2.png",
-            "./Images/Projects/SLASH/Red1.png",
-            "./Images/Projects/SLASH/Red2.png",
-            "./Images/Projects/SLASH/Red3.png",
-            "./Images/Projects/SLASH/Red4.png"
+            "/Images/Projects/SLASH/Capture2.jfif",
+            "/Images/Projects/SLASH/Capture3.jfif",
+            "/Images/Projects/SLASH/Capture4.jfif",
+            "/Images/Projects/SLASH/Capture5.png",
+            "/Images/Projects/SLASH/Dungeon1.png",
+            "/Images/Projects/SLASH/Dungeon2.png",
+            "/Images/Projects/SLASH/Red1.png",
+            "/Images/Projects/SLASH/Red2.png",
+            "/Images/Projects/SLASH/Red3.png",
+            "/Images/Projects/SLASH/Red4.png"
         ]
     }
 ]
