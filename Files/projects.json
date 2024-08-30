@@ -28,11 +28,11 @@
         "thumbnail": "/Images/Projects/TAOW/Thumbnail.png",
         "repo": "https://github.com/DavidSMoyer/Final-Project",
         "images": [
-            "/Images/Projects/TAOW/Title.PNG",
-            "/Images/Projects/TAOW/HeroSelect.png",
-            "/Images/Projects/TAOW/Gameplay1.png",
-            "/Images/Projects/TAOW/Gameplay2.png",
-            "/Images/Projects/TAOW/Gameplay3.png"
+            "../Images/Projects/TAOW/Title.PNG",
+            "../Images/Projects/TAOW/HeroSelect.png",
+            "../Images/Projects/TAOW/Gameplay1.png",
+            "../Images/Projects/TAOW/Gameplay2.png",
+            "../Images/Projects/TAOW/Gameplay3.png"
         ]
     },
     {
