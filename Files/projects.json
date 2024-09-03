@@ -43,21 +43,21 @@
             "Mastering the mechanics of the grappling hook is key, as each level challenges you to navigate through increasingly complex and precarious arrangements of objects. Timing, momentum, and strategic planning are essential to make it through the void unscathed. Void Grappler distills the essence of skill-based movement into a focused, fast-paced experience, making it a perfect showcase of innovative gameplay mechanics and fluid motion.",
             "While very barebones in itself, and simplistic in name, this project allowed me to experiment with physics in Unity and offers endless development through the process of adding additional levels and new mechanics to spice up the gameplay."
         ],
-        "thumbnail": "/Images/Projects/GG/Title.png",
+        "thumbnail": "../Images/Projects/GG/Title.png",
         "repo": "https://github.com/DavidSMoyer/Grappling-Demo",
         "images": [
-            "/Images/Projects/GG/Level Select.png",
-            "/Images/Projects/GG/Level 1.png",
-            "/Images/Projects/GG/Level 1 Gameplay.png",
-            "/Images/Projects/GG/Level Complete.png",
-            "/Images/Projects/GG/Level 2.png",
-            "/Images/Projects/GG/Level 2 Gameplay.png",
-            "/Images/Projects/GG/Level 3.png",
-            "/Images/Projects/GG/Level 3 Gameplay.png",
-            "/Images/Projects/GG/Level 4.png",
-            "/Images/Projects/GG/Level 4 Gameplay.png",
-            "/Images/Projects/GG/Level 5.png",
-            "/Images/Projects/GG/Level 5 Gameplay.png"
+            "../Images/Projects/GG/Level Select.png",
+            "../Images/Projects/GG/Level 1.png",
+            "../Images/Projects/GG/Level 1 Gameplay.png",
+            "../Images/Projects/GG/Level Complete.png",
+            "../Images/Projects/GG/Level 2.png",
+            "../Images/Projects/GG/Level 2 Gameplay.png",
+            "../Images/Projects/GG/Level 3.png",
+            "../Images/Projects/GG/Level 3 Gameplay.png",
+            "../Images/Projects/GG/Level 4.png",
+            "../Images/Projects/GG/Level 4 Gameplay.png",
+            "../Images/Projects/GG/Level 5.png",
+            "../Images/Projects/GG/Level 5 Gameplay.png"
         ]
     },
     {
@@ -67,14 +67,14 @@
             "Castaway is a minimalist survival game designed with the core objective of mastering the fundamentals of Unreal Engine. Stripping the genre down to its most essential elements, the game features a simple yet functional food and thirst system alongside basic movement mechanics. While the gameplay is intentionally sparse, focusing on the raw survival experience, it serves as an effective tool for learning and experimenting within Unreal Engine's powerful development environment.",
             "Castaway is not just a game; it's a stepping stone for myself in looking to understand the intricacies of game creation in Unreal Engine. Through the process of building this project, I developed the foundational skills necessary for producing more complex and polished titles in the engine. In the future, I hope to produce more polished and developed projects in Unreal Engine and push myself to make something great."
         ],
-        "thumbnail": "/Images/Projects/CASTAWAY/Death.png",
+        "thumbnail": "Images/Projects/CASTAWAY/Death.png",
         "repo": "https://github.com/DavidSMoyer/Castaway",
         "images": [
-            "/Images/Projects/CASTAWAY/Gameplay.png",
-            "/Images/Projects/CASTAWAY/Food.png",
-            "/Images/Projects/CASTAWAY/Nature.png",
-            "/Images/Projects/CASTAWAY/Water.png",
-            "/Images/Projects/CASTAWAY/Death.png"
+            "Images/Projects/CASTAWAY/Gameplay.png",
+            "Images/Projects/CASTAWAY/Food.png",
+            "Images/Projects/CASTAWAY/Nature.png",
+            "Images/Projects/CASTAWAY/Water.png",
+            "Images/Projects/CASTAWAY/Death.png"
         ]
     },
     {
