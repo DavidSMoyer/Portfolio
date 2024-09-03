@@ -25,14 +25,14 @@
             "Set within a randomly generated terrain, each match presents a fresh challenge, requiring players to adapt their strategies to the unique landscape and resource distribution. Whether forging alliances or engaging in direct combat, the goal remains the same: to outwit and overpower the other players in a quest for dominance. The dynamic interplay between economy, military strength, and tactical positioning ensures that every decision counts, making each turn a pivotal moment in the battle for supremacy.",
             "The Art of War was developed using the Greenfoot IDE, and coded in Java. While the IDE itself leaves much to be desired, this project was a pivotal moment in my understanding of developing using Java, and served as my first fully developed project in my education."
         ],
-        "thumbnail": "Images/Projects/TAOW/Thumbnail.png",
+        "thumbnail": "Images/Projects/TAOW/Thumbnail.PNG",
         "repo": "https://github.com/DavidSMoyer/Final-Project",
         "images": [
-            "../Images/Projects/TAOW/Title.PNG",
-            "../Images/Projects/TAOW/HeroSelect.png",
-            "../Images/Projects/TAOW/Gameplay1.png",
-            "../Images/Projects/TAOW/Gameplay2.png",
-            "../Images/Projects/TAOW/Gameplay3.png"
+            "../Images/Projects/TAOW/Title.png",
+            "../Images/Projects/TAOW/HeroSelect.PNG",
+            "../Images/Projects/TAOW/Gameplay1.PNG",
+            "../Images/Projects/TAOW/Gameplay2.PNG",
+            "../Images/Projects/TAOW/Gameplay3.PNG"
         ]
     },
     {
