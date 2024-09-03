@@ -25,11 +25,11 @@ export default function Contact(props)
                 </ul>
                 <form action="https://formsubmit.co/88e172f33329e3508252a1f346ca0838" method="post">
                     <div id="senderInfo">
-                        <input type="text" name="name" id="nameInput" placeholder="Name..." required="true" />
-                        <input type="email" name="email" id="emailInput" placeholder="Email..." required="true" />
+                        <input type="text" name="name" id="nameInput" placeholder="Name..." required={true} />
+                        <input type="email" name="email" id="emailInput" placeholder="Email..." required={true} />
                     </div>
-                    <input type="text" name="subject" id="subjectInput" placeholder="Subject..." required="true" />
-                    <textarea name="content" rows="10" required="true"></textarea>
+                    <input type="text" name="subject" id="subjectInput" placeholder="Subject..." required={true} />
+                    <textarea name="content" rows="10" required={true}></textarea>
                     <input type="submit" text="Submit" id="submitForm" />
                 </form>
             </main>

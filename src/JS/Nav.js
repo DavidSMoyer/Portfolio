@@ -1,16 +1,14 @@
 let transitioning = false;
 let transition;
 
-document.onload += () => {
+document.addEventListener("load", () => {
     transition = document.getElementById("transition");
     transition.classList.add("hidden");
-}
+});
 
 export function StartTransition(side, navMethod)
 {
     if (transitioning) return;
-
-    console.log("Clicked");
 
     document.getElementById("transition").classList.remove("hidden");
     document.getElementById("transition").classList.add(side);

@@ -4,16 +4,21 @@ import { StartTransition } from "../../JS/Nav";
 import { useNavigate } from "react-router-dom";
 import Project from '../Project.js';
 import ProjectDetails from './ProjectDetails.js';
+import React from 'react';
+import { useState } from 'react';
 
 import { Routes, Route } from "react-router-dom";
 
-import projects from '../../Data/Projects.json'
-
 export default function Projects(props)
 {
+    const [projects, setProjects] = useState([]);
     let navigate = useNavigate();
 
-    let rows = Math.ceil(projects.length / 3);
+    React.useEffect(() => {
+        fetch('Files/projects.json').then((res)=>res.json()).then((data)=>{
+            setProjects(data)
+        });
+    });
 
     return (
         <Routes>
@@ -25,14 +30,14 @@ export default function Projects(props)
                         <div id="project-list-container">
                             <div id="project-list">
                                 {
-                                    projects.map((proj, i) => <Project key={proj.id} setLoad={props.setLoad} id={proj.id} name={proj.name} desc={proj.description[0]} img={proj.thumbnail} />)
+                                    projects.length === 0 ? "" : projects.map((proj, i) => <Project key={proj.id} setLoad={props.setLoad} id={proj.id} name={proj.name} desc={proj.description[0]} img={proj.thumbnail} />)
                                 }
                             </div>
                         </div>
                     </div>
                 </div>
             } />
-            <Route path="/:id" element={<ProjectDetails setLoad={props.setLoad} />} />
+            <Route path="/:id" element={<ProjectDetails setLoad={props.setLoad} projects={projects} />} />
         </Routes>
     )
 }

@@ -24,7 +24,7 @@ export default function About(props)
                 <p>
                     While my main interest is game design, I have the knowledge needed to pursue most forms of software design! I pride myself on nothing more than my ability to learn on the fly, and I believe that a good programmer is always learning no matter what field they go into!
                 </p>
-                <Link id="resume" to="../Files/resume.pdf" target="_blank" download>Resume</Link>
+                <a id="resume" href="../Files/resume.pdf" target="_blank" download>Resume</a>
             </main>
             <div id="portrait">
             </div>

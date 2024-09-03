@@ -21,19 +21,19 @@ function App() {
 
     return (
         <div className="App">
+            <script src="../JS/Nav.js" />
             <div id="transition" style={{backgroundColor: transitionColor}}>
                 <div id="inner-transition" style={{backgroundColor: innerColor, color: transitionColor}}>
                     <FontAwesomeIcon icon={loadIcon} id="loading" />
                 </div>
             </div>
-            <BrowserRouter>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
                 <Routes>
-                    <Route index element={<Nav setLoad={setLoad} />} />
-                    <Route path="about" element={<About setLoad={setLoad} />} />
-                    <Route path="experience" element={<Experience setLoad={setLoad} />} />
-                    <Route path="projects/*" element={<Projects setLoad={setLoad} />} />
-                    <Route path="contact" element={<Contact setLoad={setLoad} />} />
-                    <Route path="*" />
+                    <Route index path="/" element={<Nav setLoad={setLoad} />} />
+                    <Route path="/about" element={<About setLoad={setLoad} />} />
+                    <Route path="/experience" element={<Experience setLoad={setLoad} />} />
+                    <Route path="/projects/*" element={<Projects setLoad={setLoad} />} />
+                    <Route path="/contact" element={<Contact setLoad={setLoad} />} />
                 </Routes>
             </BrowserRouter>
         </div>
