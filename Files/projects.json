@@ -15,7 +15,8 @@
             "../Images/Projects/GR/Instructions.png",
             "../Images/Projects/GR/Gameplay.png",
             "../Images/Projects/GR/Game Over.png"
-        ]
+        ],
+        "date": "2019-04-25"
     },
     {
         "id": "8f445f5c-2469-4abc-85fc-8e5f54520dc9",
@@ -33,7 +34,8 @@
             "../Images/Projects/TAOW/Gameplay1.PNG",
             "../Images/Projects/TAOW/Gameplay2.PNG",
             "../Images/Projects/TAOW/Gameplay3.PNG"
-        ]
+        ],
+        "date": "2019-01-14"
     },
     {
         "id": "2da7673e-ca4e-42b7-a7e1-1513ec17d244",
@@ -58,7 +60,8 @@
             "../Images/Projects/GG/Level 4 Gameplay.png",
             "../Images/Projects/GG/Level 5.png",
             "../Images/Projects/GG/Level 5 Gameplay.png"
-        ]
+        ],
+        "date": "2019-05-09"
     },
     {
         "id": "14733ee6-e6f7-49dc-af90-5e0747bd057b",
@@ -75,47 +78,22 @@
             "../Images/Projects/CASTAWAY/Nature.png",
             "../Images/Projects/CASTAWAY/Water.png",
             "../Images/Projects/CASTAWAY/Death.png"
-        ]
+        ],
+        "date": "2024-01-25"
     },
     {
-        "id": "18d431a7-561d-4a3e-9a27-a371c3ddb202",
-        "name": "Reality Clash",
+        "id": "08d939cd-585f-47d8-9fd2-6c2a07ef46f9",
+        "name": "Disconnected",
         "description": [
-            "Reality Clash is an early-stage real-time strategy (RTS) game, inspired by genre-defining titles such as StarCraft, StarCraft II, and Stormgate. While currently in a very work-in-progress state, the game already showcases the foundational mechanics of unit movement, utilizing borrowed assets to bring the concept to life.",
-            "Although Reality Clash is in its infancy, with only the most basic elements implemented, it serves as a promising glimpse into the potential for a fully-fledged RTS experience. The current focus is on perfecting the core gameplay mechanics, ensuring smooth and responsive unit control as a basis for future development.",
-            "Looking ahead, the vision for Reality Clash includes expanding on these early foundations to create a rich, strategic environment filled with diverse units, intricate base-building, and dynamic combat scenarios. This project is a labor of love, and as it evolves, it aims to offer a fresh and engaging take on the real-time strategy genre. As one of my first Unreal Engine projects, it also serves to expand my knowledge of the Engine through it's development."
+            "A top-down singleplayer puzzle game where you take the role of HELIX, an AI developed in a research facility. Link to various nodes in order to make your way out of the facility, and out into the world wide web.",
+            "This is a game designed for the Mini Gim #3 Game Jam on Itch.io, and ended up 1st place in the game jam, serving as rich experience in solo game development."
         ],
-        "thumbnail": "Images/Projects/RC/Thumbnail.png",
-        "repo": "",
+        "thumbnail": "Images/Projects/DISCONNECTED/Image 1.png",
+        "itch": "https://softrainbowboi.itch.io/disconnected",
         "images": [
-            "../Images/Projects/RC/Units.png",
-            "../Images/Projects/RC/Structure.png",
-            "../Images/Projects/RC/Closeup.png",
-            "../Images/Projects/RC/Movement.png",
-            "../Images/Projects/RC/Order.png"
-        ]
-    },
-    {
-        "id": "a9c61332-0865-4795-aac2-ebfbd1bd23fe",
-        "name": "Slash",
-        "description": [
-            "Slash is an extremely work-in-progress endeavor that aspires to become an expansive open-world RPG. Though in its early stages, this project has already played a crucial role in advancing my understanding of level design and enhancing my proficiency in manipulating elements within the game editor.",
-            "Currently, the game serves as a sandbox for experimentation, allowing me to explore the intricacies of creating immersive environments and cohesive world layouts. Each step in the development process, from terrain sculpting to object placement, contributes to a deeper comprehension of the tools and techniques required to bring a fully realized RPG world to life.",
-            "While much remains to be built, Slash represents an important milestone in my journey as a game developer, laying the groundwork for what will eventually become a rich and engaging open-world experience."
+            "../Images/Projects/DISCONNECTED/Image 1.png",
+            "../Images/Projects/DISCONNECTED/Image 2.png"
         ],
-        "thumbnail": "Images/Projects/SLASH/Thumbnail.png",
-        "repo": "",
-        "images": [
-            "../Images/Projects/SLASH/Capture2.jfif",
-            "../Images/Projects/SLASH/Capture3.jfif",
-            "../Images/Projects/SLASH/Capture4.jfif",
-            "../Images/Projects/SLASH/Capture5.png",
-            "../Images/Projects/SLASH/Dungeon1.png",
-            "../Images/Projects/SLASH/Dungeon2.png",
-            "../Images/Projects/SLASH/Red1.png",
-            "../Images/Projects/SLASH/Red2.png",
-            "../Images/Projects/SLASH/Red3.png",
-            "../Images/Projects/SLASH/Red4.png"
-        ]
+        "date": "2025-06-11"
     }
 ]
