@@ -10,11 +10,11 @@
         "thumbnail": "Images/Projects/GR/Title.png",
         "repo": "https://github.com/DavidSMoyer/Graveyard-Rush-Beta",
         "images": [
-            "../Images/Projects/GR/Title.png",
-            "../Images/Projects/GR/Shop.png",
-            "../Images/Projects/GR/Instructions.png",
-            "../Images/Projects/GR/Gameplay.png",
-            "../Images/Projects/GR/Game Over.png"
+            "Images/Projects/GR/Title.png",
+            "Images/Projects/GR/Shop.png",
+            "Images/Projects/GR/Instructions.png",
+            "Images/Projects/GR/Gameplay.png",
+            "Images/Projects/GR/Game Over.png"
         ]
     },
     {
@@ -28,11 +28,11 @@
         "thumbnail": "Images/Projects/TAOW/Thumbnail.PNG",
         "repo": "https://github.com/DavidSMoyer/Final-Project",
         "images": [
-            "../Images/Projects/TAOW/Title.png",
-            "../Images/Projects/TAOW/HeroSelect.PNG",
-            "../Images/Projects/TAOW/Gameplay1.PNG",
-            "../Images/Projects/TAOW/Gameplay2.PNG",
-            "../Images/Projects/TAOW/Gameplay3.PNG"
+            "Images/Projects/TAOW/Title.png",
+            "Images/Projects/TAOW/HeroSelect.PNG",
+            "Images/Projects/TAOW/Gameplay1.PNG",
+            "Images/Projects/TAOW/Gameplay2.PNG",
+            "Images/Projects/TAOW/Gameplay3.PNG"
         ]
     },
     {
@@ -46,18 +46,18 @@
         "thumbnail": "Images/Projects/GG/Title.png",
         "repo": "https://github.com/DavidSMoyer/Grappling-Demo",
         "images": [
-            "../Images/Projects/GG/Level Select.png",
-            "../Images/Projects/GG/Level 1.png",
-            "../Images/Projects/GG/Level 1 Gameplay.png",
-            "../Images/Projects/GG/Level Complete.png",
-            "../Images/Projects/GG/Level 2.png",
-            "../Images/Projects/GG/Level 2 Gameplay.png",
-            "../Images/Projects/GG/Level 3.png",
-            "../Images/Projects/GG/Level 3 Gameplay.png",
-            "../Images/Projects/GG/Level 4.png",
-            "../Images/Projects/GG/Level 4 Gameplay.png",
-            "../Images/Projects/GG/Level 5.png",
-            "../Images/Projects/GG/Level 5 Gameplay.png"
+            "Images/Projects/GG/Level Select.png",
+            "Images/Projects/GG/Level 1.png",
+            "Images/Projects/GG/Level 1 Gameplay.png",
+            "Images/Projects/GG/Level Complete.png",
+            "Images/Projects/GG/Level 2.png",
+            "Images/Projects/GG/Level 2 Gameplay.png",
+            "Images/Projects/GG/Level 3.png",
+            "Images/Projects/GG/Level 3 Gameplay.png",
+            "Images/Projects/GG/Level 4.png",
+            "Images/Projects/GG/Level 4 Gameplay.png",
+            "Images/Projects/GG/Level 5.png",
+            "Images/Projects/GG/Level 5 Gameplay.png"
         ]
     },
     {
@@ -70,11 +70,11 @@
         "thumbnail": "Images/Projects/CASTAWAY/Death.png",
         "repo": "https://github.com/DavidSMoyer/Castaway",
         "images": [
-            "../Images/Projects/CASTAWAY/Gameplay.png",
-            "../Images/Projects/CASTAWAY/Food.png",
-            "../Images/Projects/CASTAWAY/Nature.png",
-            "../Images/Projects/CASTAWAY/Water.png",
-            "../Images/Projects/CASTAWAY/Death.png"
+            "Images/Projects/CASTAWAY/Gameplay.png",
+            "Images/Projects/CASTAWAY/Food.png",
+            "Images/Projects/CASTAWAY/Nature.png",
+            "Images/Projects/CASTAWAY/Water.png",
+            "Images/Projects/CASTAWAY/Death.png"
         ]
     },
     {
@@ -88,11 +88,11 @@
         "thumbnail": "Images/Projects/RC/Thumbnail.png",
         "repo": "",
         "images": [
-            "../Images/Projects/RC/Units.png",
-            "../Images/Projects/RC/Structure.png",
-            "../Images/Projects/RC/Closeup.png",
-            "../Images/Projects/RC/Movement.png",
-            "../Images/Projects/RC/Order.png"
+            "Images/Projects/RC/Units.png",
+            "Images/Projects/RC/Structure.png",
+            "Images/Projects/RC/Closeup.png",
+            "Images/Projects/RC/Movement.png",
+            "Images/Projects/RC/Order.png"
         ]
     },
     {
@@ -106,16 +106,16 @@
         "thumbnail": "Images/Projects/SLASH/Thumbnail.png",
         "repo": "",
         "images": [
-            "../Images/Projects/SLASH/Capture2.jfif",
-            "../Images/Projects/SLASH/Capture3.jfif",
-            "../Images/Projects/SLASH/Capture4.jfif",
-            "../Images/Projects/SLASH/Capture5.png",
-            "../Images/Projects/SLASH/Dungeon1.png",
-            "../Images/Projects/SLASH/Dungeon2.png",
-            "../Images/Projects/SLASH/Red1.png",
-            "../Images/Projects/SLASH/Red2.png",
-            "../Images/Projects/SLASH/Red3.png",
-            "../Images/Projects/SLASH/Red4.png"
+            "Images/Projects/SLASH/Capture2.jfif",
+            "Images/Projects/SLASH/Capture3.jfif",
+            "Images/Projects/SLASH/Capture4.jfif",
+            "Images/Projects/SLASH/Capture5.png",
+            "Images/Projects/SLASH/Dungeon1.png",
+            "Images/Projects/SLASH/Dungeon2.png",
+            "Images/Projects/SLASH/Red1.png",
+            "Images/Projects/SLASH/Red2.png",
+            "Images/Projects/SLASH/Red3.png",
+            "Images/Projects/SLASH/Red4.png"
         ]
     }
 ]
